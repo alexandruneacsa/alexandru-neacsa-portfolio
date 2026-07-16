@@ -25,7 +25,7 @@ const nav = ['About', 'Experience', 'Projects', 'Expertise', 'Leadership', 'Educ
 const experience = [
   {
     company: 'Deutsche Bank',
-    role: 'Senior Full-Stack Engineer · IT Application Owner · Assistant Vice President',
+    role: 'Senior Java Full-Stack Engineer · IT Application Owner',
     period: 'July 2025 — Present',
     location: 'Bucharest, Romania',
     summary:
@@ -55,7 +55,7 @@ const experience = [
   },
   {
     company: 'Endava',
-    role: '.NET Software Engineer · QA Automation Engineer',
+    role: '.NET Software Engineer · .NET QA Automation Engineer · Java Software Engineer',
     period: 'June 2022 — October 2023',
     location: 'Pitești, Romania',
     summary:
