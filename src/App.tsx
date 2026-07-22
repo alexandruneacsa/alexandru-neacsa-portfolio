@@ -141,8 +141,8 @@ const skillGroups = [
 
 const education = [
   { title: 'AI and Career Empowerment', place: 'University of Maryland Robert H. Smith School of Business', period: '2026' },
-  { title: 'Bachelor of Engineering — Computer Engineering & Information Technology', place: 'National University of Science and Technology POLITEHNICA Bucharest', period: '2020 — 2024' },
-  { title: 'Mathematics & Computer Science', place: '“Ion Cantacuzino” Theoretical High School, Pitești', period: '2016 — 2020' },
+  { title: 'Computer Engineering and Information Technology', place: 'National University of Science and Technology POLITEHNICA Bucharest', period: '2020 — 2024' },
+  { title: 'Mathematics and Computer Science', place: '“Ion Cantacuzino” Theoretical High School, Pitești', period: '2016 — 2020' },
 ];
 
 const certifications = [
