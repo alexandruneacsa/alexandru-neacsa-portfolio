@@ -140,7 +140,7 @@ const skillGroups = [
 ] as const;
 
 const education = [
-  { title: 'AI and Career Empowerment', place: 'University of Maryland Robert H. Smith School of Businessd', period: '2026' },
+  { title: 'AI and Career Empowerment', place: 'University of Maryland Robert H. Smith School of Business', period: '2026' },
   { title: 'Bachelor of Engineering — Computer Engineering & Information Technology', place: 'National University of Science and Technology POLITEHNICA Bucharest', period: '2020 — 2024' },
   { title: 'Mathematics & Computer Science', place: '“Ion Cantacuzino” Theoretical High School, Pitești', period: '2016 — 2020' },
 ];
