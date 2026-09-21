@@ -35,7 +35,7 @@ type ExperienceJob = {
 const experience: ExperienceJob[] = [
   {
     company: 'Raiffeisen Tech',
-    role: 'Senior Software Engineer',
+    role: 'Senior Software Engineer · DevOps Engineer',
     period: 'September 2026 — Present',
     summary:
       'Java Backend Developer & DevOps Engineer for a cloud-native billing platform, as part of Raiffeisen Bank International (RBI).',
@@ -79,7 +79,7 @@ const experience: ExperienceJob[] = [
   },
   {
     company: 'Endava',
-    role: '.NET Software Engineer · .NET QA Automation Engineer · Java Software Engineer',
+    role: '.NET Software Engineer · .NET QA Automation Engineer',
     period: 'June 2022 — October 2023',
     location: 'Pitești, Romania',
     summary:
@@ -221,8 +221,7 @@ export function App() {
           <p className="small-label">Current focus</p>
           <h3>Cloud-Native Engineering & DevOps</h3>
           <p>
-            Backend engineering, Kubernetes, GitOps, CI/CD and cloud-native platform development
-            for a greenfield billing platform as part of Raiffeisen Bank International.
+            Cloud-native development for a greenfield billing platform.
           </p>
           <div className="mini-grid">
             <div><strong>4</strong><span>industries</span></div>
