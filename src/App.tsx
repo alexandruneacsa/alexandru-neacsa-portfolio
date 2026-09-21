@@ -22,31 +22,30 @@ import { useEffect, useState } from 'react';
 
 const nav = ['About', 'Experience', 'Projects', 'Expertise', 'Leadership', 'Education'];
 
-const experience = [
+type ExperienceJob = {
+  company: string;
+  role: string;
+  period: string;
+  location?: string;
+  summary: string;
+  bullets?: string[];
+  stack?: string[];
+};
+
+const experience: ExperienceJob[] = [
   {
-    company: "Raiffeisen Tech",
-    role: "Senior Software Engineer",
-    period: "September 2026 — Present",
+    company: 'Raiffeisen Tech',
+    role: 'Senior Software Engineer',
+    period: 'September 2026 — Present',
     summary:
-        "Java Backend Developer & DevOps Engineer for a cloud-native billing platform, as part of Raiffeisen Bank International (RBI).",
-    highlights: [
-      "Design and build the operational foundation of a greenfield, cloud-native billing platform.",
-      "Own and evolve CI/CD, GitOps and Kubernetes-based deployment patterns across environments.",
-      "Contribute hands-on to Java Spring backend development, delivering scalable and maintainable features.",
-      "Shape DevOps, automation, observability and cloud-native engineering practices across the platform."
+      'Java Backend Developer & DevOps Engineer for a cloud-native billing platform, as part of Raiffeisen Bank International (RBI).',
+    bullets: [
+      'Design and build the operational foundation of a greenfield, cloud-native billing platform.',
+      'Own and evolve CI/CD, GitOps and Kubernetes-based deployment patterns across environments.',
+      'Contribute hands-on to Java Spring backend development, delivering scalable and maintainable features.',
+      'Shape DevOps, automation, observability and cloud-native engineering practices across the platform.',
     ],
-    technologies: [
-      "Java",
-      "Spring Boot",
-      "PostgreSQL",
-      "Docker",
-      "Kubernetes",
-      "ArgoCD",
-      "Grafana",
-      "AWS",
-      "Kargo",
-      "Crossplane"
-    ]
+    stack: ['Java', 'Spring Boot', 'PostgreSQL', 'Docker', 'Kubernetes', 'ArgoCD', 'Grafana', 'AWS', 'Kargo', 'Crossplane'],
   },
   {
     company: 'Deutsche Bank',
@@ -238,9 +237,9 @@ export function App() {
         <div className="timeline">
           {experience.map((job, index) => <article className="experience-card" key={job.company}>
             <div className="timeline-marker"><span>{String(index + 1).padStart(2, '0')}</span></div>
-            <div className="job-main"><div className="job-header"><div><h3>{job.company}</h3><h4>{job.role}</h4></div><div className="job-meta"><span>{job.period}</span><span>{job.location}</span></div></div>
-            <p>{job.summary}</p><ul>{job.bullets.map(b => <li key={b}><CheckCircle2 size={16}/>{b}</li>)}</ul>
-            <div className="chips">{job.stack.map(s => <span key={s}>{s}</span>)}</div></div>
+            <div className="job-main"><div className="job-header"><div><h3>{job.company}</h3><h4>{job.role}</h4></div><div className="job-meta"><span>{job.period}</span><span>{job.location ?? ''}</span></div></div>
+            <p>{job.summary}</p><ul>{(job.bullets ?? []).map(b => <li key={b}><CheckCircle2 size={16}/>{b}</li>)}</ul>
+            <div className="chips">{(job.stack ?? []).map(s => <span key={s}>{s}</span>)}</div></div>
           </article>)}
         </div>
       </section>
