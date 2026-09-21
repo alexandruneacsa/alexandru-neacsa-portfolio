@@ -24,6 +24,31 @@ const nav = ['About', 'Experience', 'Projects', 'Expertise', 'Leadership', 'Educ
 
 const experience = [
   {
+    company: "Raiffeisen Tech",
+    role: "Senior Software Engineer",
+    period: "September 2026 — Present",
+    summary:
+        "Java Backend Developer & DevOps Engineer for a cloud-native billing platform, as part of Raiffeisen Bank International (RBI).",
+    highlights: [
+      "Design and build the operational foundation of a greenfield, cloud-native billing platform.",
+      "Own and evolve CI/CD, GitOps and Kubernetes-based deployment patterns across environments.",
+      "Contribute hands-on to Java Spring backend development, delivering scalable and maintainable features.",
+      "Shape DevOps, automation, observability and cloud-native engineering practices across the platform."
+    ],
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "ArgoCD",
+      "Grafana",
+      "AWS",
+      "Kargo",
+      "Crossplane"
+    ]
+  },
+  {
     company: 'Deutsche Bank',
     role: 'Senior Java Full-Stack Engineer · IT Application Owner',
     period: 'July 2025 — Present',
