@@ -293,6 +293,6 @@ export function App() {
       <section className="contact-section"><div className="section-shell"><p>Let’s build useful software.</p><h2>For enterprise engineering, platform work or technical leadership conversations.</h2><a href="mailto:alexneacsa14@gmail.com">alexneacsa14@gmail.com <ArrowUpRight/></a></div></section>
     </main>
 
-    <footer><div className="section-shell"><span>© {new Date().getFullYear()} Alexandru Neacsa</span><span>Senior Full-Stack Engineer · Bucharest</span></div></footer>
+    <footer><div className="section-shell"><span>© {new Date().getFullYear()} Alexandru Neacsa</span><span>Senior Software Engineer · Bucharest</span></div></footer>
   </>;
 }
