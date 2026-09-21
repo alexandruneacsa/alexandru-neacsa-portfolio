@@ -207,9 +207,9 @@ export function App() {
     <main>
       <section id="about" className="hero section-shell">
         <div className="hero-copy">
-          <div className="status"><span></span> Senior Full-Stack Engineer · Bucharest</div>
+          <div className="status"><span></span> Senior Software Engineer · Bucharest</div>
           <h1>Engineering enterprise software with <em>clarity, ownership and impact.</em></h1>
-          <p className="hero-lead">I’m <strong>Alexandru Neacsa</strong>, a Senior Full-Stack Engineer, IT Application Owner and Assistant Vice President working across Java, Kotlin, React, .NET, cloud platforms and quality engineering.</p>
+          <p className="hero-lead">I’m <strong>Alexandru Neacsa</strong>, a Senior Software Engineer working across Java, Spring, Kubernetes, DevOps, GitOps and cloud-native platforms, currently contributing to a greenfield billing platform as part of Raiffeisen Bank International.</p>
           <div className="hero-actions">
             <a className="primary-button" href="#experience">Explore experience <ChevronRight size={17}/></a>
             <a className="secondary-button" href="mailto:alexneacsa14@gmail.com"><Mail size={17}/> Email me</a>
@@ -219,9 +219,17 @@ export function App() {
         <aside className="profile-card">
           <div className="profile-monogram">AN</div>
           <p className="small-label">Current focus</p>
-          <h3>Developer Productivity & Experience</h3>
-          <p>Full-stack engineering, application ownership, DevEx strategy and technical enablement in a global banking environment.</p>
-          <div className="mini-grid"><div><strong>4</strong><span>industries</span></div><div><strong>3</strong><span>clouds</span></div><div><strong>2</strong><span>core ecosystems</span></div><div><strong>∞</strong><span>curiosity</span></div></div>
+          <h3>Cloud-Native Engineering & DevOps</h3>
+          <p>
+            Backend engineering, Kubernetes, GitOps, CI/CD and cloud-native platform development
+            for a greenfield billing platform as part of Raiffeisen Bank International.
+          </p>
+          <div className="mini-grid">
+            <div><strong>4</strong><span>industries</span></div>
+            <div><strong>3</strong><span>clouds</span></div>
+            <div><strong>2</strong><span>core ecosystems</span></div>
+            <div><strong>∞</strong><span>curiosity</span></div>
+          </div>
         </aside>
       </section>
 
