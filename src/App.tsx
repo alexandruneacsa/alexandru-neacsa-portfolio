@@ -35,7 +35,7 @@ type ExperienceJob = {
 const experience: ExperienceJob[] = [
   {
     company: 'Raiffeisen Tech',
-    role: 'Senior Software Engineer · DevOps Engineer',
+    role: 'Senior Java Software Engineer · DevOps Engineer',
     period: 'September 2026 — Present',
     summary:
       'Java Backend Developer & DevOps Engineer for a cloud-native billing platform, as part of Raiffeisen Bank International (RBI).',
